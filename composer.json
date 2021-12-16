@@ -1,0 +1,7 @@
+{
+	"name": "automattic/ignorefile",
+	"description": "Handle .gitignore style files.",
+	"type": "library",
+	"license": "GPL-2.0-or-later",
+	"require": {}
+}
