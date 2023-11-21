@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - The package now requires PHP >= 7.0.
 - Updated package dependencies.
 
+### Removed
+- Remove use of deprecated `wikimedia/at-ease` package. PHP 7 improved error handling so `@` is ok to use now.
+
 ## [1.0.5] - 2023-06-06
 ### Changed
 - Minor internal updates.
