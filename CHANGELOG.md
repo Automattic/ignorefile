@@ -5,9 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.1-alpha] - unreleased
+## [2.1.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Add "strict mode", defaulting to off. When off, InvalidPatternException will no longer be thrown, instead the pattern will just be ignored to match `git` behavior.
+
+### Fixed
+- Ignore a UTF-8 BOM when a string is passed to `->add()`, to match `git` behavior when reading the `.gitignore` file.
 
 ## [2.0.0] - 2024-02-07
 ### Changed
@@ -43,7 +49,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Initial release.
 
-[2.0.1-alpha]: https://github.com/Automattic/ignorefile/compare/v2.0.0...v2.0.1-alpha
+[2.1.0-alpha]: https://github.com/Automattic/ignorefile/compare/v2.0.0...v2.1.0-alpha
 [2.0.0]: https://github.com/Automattic/ignorefile/compare/v1.0.5...v2.0.0
 [1.0.5]: https://github.com/Automattic/ignorefile/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/Automattic/ignorefile/compare/v1.0.3...v1.0.4
