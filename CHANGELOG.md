@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add "strict mode", defaulting to off. When off, InvalidPatternException will no longer be thrown, instead the pattern will just be ignored to match `git` behavior.
+- Updated package dependencies.
 
 ### Fixed
 - Ignore a UTF-8 BOM when a string is passed to `->add()`, to match `git` behavior when reading the `.gitignore` file.
