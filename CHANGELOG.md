@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Resolve PHPUnit "has more arguments..." warnings
+- Tests: Ensure method param count matches PHPUnit data providers.
 
 ## [3.0.1] - 2025-05-13
 ### Changed
