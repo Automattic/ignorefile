@@ -7,9 +7,8 @@
 		"php": ">=7.2"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.14",
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/phpunit-select-config": "^1.0.4"
+		"automattic/phpunit-select-config": "^1.0.5-alpha"
 	},
 	"autoload": {
 		"classmap": [
